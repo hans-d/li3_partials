@@ -1,6 +1,6 @@
 <?php
 
-namespace app\extensions\helper;
+namespace li3_partials\extensions\helper;
 
 class Partial extends \lithium\template\Helper {
   public function __call($method, $args) {
