@@ -23,7 +23,7 @@ A super simple [Lithium][1] plugin to further simplify rendering partial templat
 
 2. Tell your view to render the partial template using the `partial` helper using the following:
 
-        $this->partials->foo($variables)
+        $this->partial->foo($variables)
 
    Where `$variables` is an array that represents variable name/value pairs that are to be made available to the
    partial template (e.g. created using `compact()`).
