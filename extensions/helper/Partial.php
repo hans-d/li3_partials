@@ -1,4 +1,11 @@
 <?php
+/**
+ * Li3_partials - Partial templates in Lithium.
+ *
+ * @package       li3_partials
+ * @copyright     Copyright 2011, Ali B. (http://awhitebox.com)
+ * @license       http://opensource.org/licenses/bsd-license.php The BSD License
+ */
 
 namespace li3_partials\extensions\helper;
 
