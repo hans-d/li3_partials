@@ -2,13 +2,13 @@
 
 A super simple [Lithium][1] plugin to further simplify rendering partial templates in views.
 
-###Installation
+##Installation
 1. Clone/Download the plugin into your app's ``libraries`` directory.
 2. Tell your app to load the plugin by adding the following to your app's ``config/bootstrap/libraries.php``:
 
         Libraries::add('li3_partials');
 
-###Usage
+##Usage
 1. Create your partial template(s):
 
     * You can name he template anything you like, just make sure you append it with `_partial`. For example,
@@ -29,3 +29,7 @@ A super simple [Lithium][1] plugin to further simplify rendering partial templat
    partial template (e.g. created using `compact()`).
 
 [1]:http://lithify.me
+
+##Contribution
+
+As usual, please feel free to fork the project, add your feature or fix a bug and submit a Pull request.
